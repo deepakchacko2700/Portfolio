@@ -43,7 +43,7 @@ export default function Main() {
                         initial={{y:-250}}
                         animate={{y:0}}
                         transition={{type:'spring', bounce:0.7, delay:0.5}}
-                        sx={{m: {xs:'12vh 10px 5px 10px', md:'auto'}}}
+                        sx={{m: {xs:'10vh 20px 5px', md:'auto'} }}
                     >
                         <Typography 
                             sx={{fontFamily:'serif',
@@ -129,7 +129,7 @@ export default function Main() {
                                     boxSizing:'border-box',
                                     // pl:5,
                                     // backgroundColor:'#232323',
-                                    py: {xs:1, md:10}
+                                    py: {xs:0, md:10}
                                 }}
                                 alt=''
                                 src={codingImage}

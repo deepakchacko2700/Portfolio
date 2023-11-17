@@ -188,7 +188,7 @@ export default function Main() {
                             position:'relative',                       
                         }}
                     >
-                        <Typography variant='body1' sx={{fontSize:19, fontFamily:' Helvetica Verdana sans-serif', color:'#ebf0f7'}}>
+                        <Typography variant='body1' sx={{fontSize:'1.2rem', fontFamily:' Helvetica Verdana sans-serif', color:'#ebf0f7'}}>
                             I am a self taught computer programmer. My education background is in
                             Physical Science and I am a post graduate in the same. Also I have worked as 
                             a tutor for a couple of years. My acquanitance with programming begins during my 

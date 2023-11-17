@@ -30,7 +30,7 @@ export default function Main() {
                 >
                     <NavBar />
                 </Grid>
-                <Grid item xs={12} container paddingTop={{xs:8, md:0}}
+                <Grid item xs={12} container 
                     sx={{
                         minHeight:'100vh',
                         padding:{xs:'30px 2vw', md:'2px 15vw'},
@@ -38,11 +38,12 @@ export default function Main() {
                     }}
                 >
                     <Grid item xs={12} md={6} 
+                        alignSelf='center'
                         component={motion.div}
                         initial={{y:-250}}
                         animate={{y:0}}
                         transition={{type:'spring', bounce:0.7, delay:0.5}}
-                        sx={{m: {xs:'13vh 10px 5px 10px', md:'auto'}}}
+                        sx={{m: {xs:'17vh 10px 5px 10px', md:'auto'}}}
                     >
                         <Typography 
                             sx={{fontFamily:'serif',

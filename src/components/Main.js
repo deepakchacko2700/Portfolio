@@ -43,7 +43,7 @@ export default function Main() {
                         initial={{y:-250}}
                         animate={{y:0}}
                         transition={{type:'spring', bounce:0.7, delay:0.5}}
-                        sx={{m: {xs:'17vh 10px 5px 10px', md:'auto'}}}
+                        sx={{m: {xs:'12vh 10px 5px 10px', md:'auto'}}}
                     >
                         <Typography 
                             sx={{fontFamily:'serif',
@@ -125,9 +125,10 @@ export default function Main() {
                             <Box component='img'
                                 sx={{
                                     display:'block',
-                                    maxWidth:{xs:'75vw', md:'35vw'},
+                                    maxWidth:{xs:'90vw', md:'35vw'},
                                     boxSizing:'border-box',
-                                    pl:5,
+                                    // pl:5,
+                                    // backgroundColor:'#232323',
                                     py: {xs:1, md:10}
                                 }}
                                 alt=''
